@@ -1,1 +1,1 @@
-##https://davidevaldes.github.io/cobalt-mining-awareness/##
+https://davidevaldes.github.io/cobalt-mining-awareness/
