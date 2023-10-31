@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cobalt Mining Awareness</title>
+  <link rel="icon" href="img/Unknown.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <ul class="navbar">
+    <li><a href="#about">About</a></li>
+    <li><a href="#impact">Impact</a></li>
+    <li><a href="#videos">Videos</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#" id="dark-mode-toggle" class="dark-mode-btn">Dark Mode</a></li>
+  </ul>
+
+  <div class="header-container">
+    <div class="header-item">
+      <img id="header-img" src="img/Unknown.png" alt="Lithium Mining Awareness Logo">
+      <h1>Cobalt Mining Awareness</h1>
+    </div>
+    <nav class="header-item">
+      <button class="header-button" onclick="location.href='#news';">Learn More</button>
+      <button class="header-button" onclick="location.href='#petition';">Take Action</button>
+    </nav>
+  </div>
+
+  <section id="about">
+    <h2>About Cobalt Mining</h2>
+    <p>Cobalt mining, while pivotal in driving the technological revolution and green energy transition, has raised
+      substantial environmental and ethical concerns, particularly in regions like Africa. The extraction processes can
+      lead to water pollution, depletion, and contribute to harmful ecological impacts, thereby demanding a balanced,
+      sustainable approach to cobalt production.</p>
+  </section>
+
+  <section class="impact" id="impact">
+    <h2>Environmental and Social Impact</h2>
+    <div class="image-grid">
+      <figure>
+        <figcaption>Open-Pit Cobalt Mining</figcaption>
+        <img src="img/people.jpg" alt="Lithium mine 1">
+
+      </figure>
+      <figure>
+        <figcaption>Water Depletion</figcaption>
+        <img src="img/water.webp" alt="Lithium mine 2">
+
+      </figure>
+      <figure>
+        <figcaption>Affected Local Communities</figcaption>
+        <img src="img/community.jpg" alt="Lithium mine 3">
+
+      </figure>
+      <figure>
+        <figcaption>Cobalt Pollution</figcaption>
+        <img src="img/pollution.jpg" alt="Lithium mine 4">
+
+      </figure>
+    </div>
+    <p class="description">Cobalt mining in Africa entails not only environmental but also social repercussions,
+      disrupting local communities and ecosystems. The images above reveal various facets of cobalt mining, prompting a
+      dire need for regulations and practices that safeguard both the environment and indigenous communities.</p>
+  </section>
+
+  <section class="videos" id="videos">
+    <h2>Miners working in treacherous conditions</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/1TL7hTx5z0k?si=ai_5VCDmgvM36Sx1" frameborder="0"
+      allowfullscreen></iframe>
+    <p class="description">Dive into the complexities of cobalt mining through our video series, exploring the on-ground
+      realities, scientific perspectives, and the stories of those directly impacted by mining activities. Understand
+      why ethical mining practices are imperative for a truly sustainable future.</p>
+  </section>
+
+  <section class="news" id="news">
+    <h2>Recent News</h2>
+    <article>
+      <a href="https://www.sciencedirect.com/science/article/pii/S2666790820300380">
+        <h3>Groundwater Levels Plunge in Mining Areas</h3>
+        <p>Groundwater depletion in cobalt mining hotspots raises alarms. Researchers and environmentalists call for
+          immediate action to safeguard the precious resource and protect local biodiversity.</p>
+      </a>
+    </article>
+    <article>
+      <a href="https://globalhumanrights.org/stories/extraction-without-exploitation/">
+        <h3>Communities Displaced: The Human Cost</h3>
+        <p>Local communities face displacement and disruption due to expanding cobalt mines. Explore their stories,
+          struggles, and the ongoing battle between development and conservation.</p>
+      </a>
+    </article>
+  </section>
+
+  <footer class="footer">
+    <a
+      href="https://www.npr.org/sections/goatsandsoda/2023/02/01/1152893248/red-cobalt-congo-drc-mining-siddharth-kara">Modern-day
+      Slavery</a>
+    <a href="https://earth.org/cobalt-mining/">The Dark Side of Cobal Mining</a>
+  </footer>
+
+  <!-- Petition Section -->
+  <section class="petition" id="petition">
+    <h2>Sign Our Petition 📢</h2>
+    <div class="petition-container">
+      <div class="petition-para">
+        <!-- Add your petition text here -->
+        <p>Join us in raising awareness about the environmental and social impact of cobalt mining. Sign our petition to
+          support ethical mining practices!</p>
+      </div>
+      <div class="signatures">
+        <!-- Initial signatures (you can customize these) -->
+        <p>🖊️ DJ from Brooklyn supports this.</p>
+        <p>🖊️ Amy from Queens supports this.</p>
+        <p>🖊️ Teresa from Harlem supports this.</p>
+      </div>
+      <!-- Signature Counter -->
+      <div id="signature-counter">🖊️ 3 people have signed this petition and support this cause.</div>
+    </div>
+
+    <!-- Sign Petition Form -->
+    <form id="sign-petition">
+      <label  for="name">Name:</label>
+      <input   type="text" id="name" name="name" required>
+      <label for="hometown">Hometown:</label>
+      <input  type="text" id="hometown" name="hometown" required>
+      <label  for="email">Email:</label>
+      <input  type="text" id="email" name="email" required>
+      <button type="submit" id="sign-now-button">Sign Now</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
