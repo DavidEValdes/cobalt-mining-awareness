@@ -40,28 +40,28 @@
   <section class="impact" id="impact">
     <h2>Environmental and Social Impact</h2>
     <div class="image-grid">
-      <figure>
+      <figure class="revealable">
         <figcaption>Open-Pit Cobalt Mining</figcaption>
         <img src="img/people.jpg" alt="Lithium mine 1">
 
       </figure>
-      <figure>
+      <figure class="revealable">
         <figcaption>Water Depletion</figcaption>
         <img src="img/water.webp" alt="Lithium mine 2">
 
       </figure>
-      <figure>
+      <figure class="revealable">
         <figcaption>Affected Local Communities</figcaption>
         <img src="img/community.jpg" alt="Lithium mine 3">
 
       </figure>
-      <figure>
+      <figure class="revealable">
         <figcaption>Cobalt Pollution</figcaption>
         <img src="img/pollution.jpg" alt="Lithium mine 4">
 
       </figure>
     </div>
-    <p class="description">Cobalt mining in Africa entails not only environmental but also social repercussions,
+    <p class="revealable description">Cobalt mining in Africa entails not only environmental but also social repercussions,
       disrupting local communities and ecosystems. The images above reveal various facets of cobalt mining, prompting a
       dire need for regulations and practices that safeguard both the environment and indigenous communities.</p>
   </section>
@@ -131,6 +131,18 @@
     </form>
   </section>
 
+  <!-- Modal -->
+  <div id="thanks-modal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div id="modal-text-container">
+        <p style="color: #000000;" id="thanks-modal-content">Thank you for your support!</p>
+      </div>
+      <img src="img/miners1.png" alt="Thank You Image" class="modal-thank-you-image">
+      <button id="close-modal" style="margin-top: 30px;" >Close</button>
+    </div>
+  </div>
+  
   <script src="script.js"></script>
 </body>
 
