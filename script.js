@@ -2,7 +2,7 @@
 
 /* Makes sure that NavBar doesnt cover Title*/
 
-window.addEventListener('load', adjustPaddingTop);
+document.addEventListener('DOMContentLoaded', adjustPaddingTop);
 window.addEventListener('resize', adjustPaddingTop);
 
 function adjustPaddingTop() {
