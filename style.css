@@ -1,5 +1,7 @@
 /* Basic Styling */
 body {
+    display: flex;
+    flex-direction: column;
     padding-top: 45px;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -34,8 +36,11 @@ a:hover {
 
 
 
-/* Navigation Bar Styling */
+/* Updated Navigation Bar Styling */
 .navbar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -44,18 +49,16 @@ a:hover {
     position: fixed;
     top: 0;
     width: 100%;
-    text-align: center; 
-   height: 45px;
-  
+    text-align: center;
 }
 
 .navbar li {
-    display: inline; 
-    margin-right: 20px; 
+    /* Removed display: inline; allowing flexbox to control the layout */
+    margin-right: 20px; /* Adjust as necessary */
 }
 
 .navbar li a {
-    display: inline-block; 
+    display: block; /* Ensures the links are properly clickable and can fill the flex container */
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -66,7 +69,6 @@ a:hover {
     background-color: #ddd;
     color: #025955;
 }
-
 
 
 

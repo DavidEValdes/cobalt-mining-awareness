@@ -1,3 +1,16 @@
+
+
+/* Makes sure that NavBar doesnt cover Title*/
+
+window.addEventListener('load', adjustPaddingTop);
+window.addEventListener('resize', adjustPaddingTop);
+
+function adjustPaddingTop() {
+    const navbarHeight = document.querySelector('.navbar').offsetHeight;
+    document.body.style.paddingTop = `${navbarHeight}px`;
+}
+
+
 document.addEventListener('DOMContentLoaded', function () {
 
   // Close modal button
