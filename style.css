@@ -502,3 +502,36 @@ body.dark-mode .image-grid figure:hover {
   width: 100%;
   height: 100%;
 }
+
+
+
+/* Sign Petition Form Styling */
+#sign-petition {
+    width: 90%; /* Adjust based on preference */
+    margin: 20px auto; /* Center the form */
+}
+
+#sign-petition input[type="text"], 
+#sign-petition button {
+    width: 100%; /* Make input fields and button take full width */
+    padding: 10px; /* Add padding for better touch interaction */
+    margin: 5px 0; /* Add space between form elements */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+#sign-petition label {
+    display: block; /* Ensure labels are above input fields */
+    margin-top: 10px; /* Space above labels */
+}
+
+#sign-petition button {
+    background-color: #025955; /* Button color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    cursor: pointer; /* Change cursor to pointer */
+    margin-top: 10px; /* Space above the button */
+}
+
+#sign-petition button:hover {
+    opacity: 0.8; /* Slight visual feedback on hover */
+}

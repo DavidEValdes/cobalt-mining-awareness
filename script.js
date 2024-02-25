@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Specific validation for email
         const email = document.getElementById('email');
-        if (!email.value.includes('.com') && !email.value.includes('.org') && !email.value.includes('.edu')) {
+        if (!email.value.toLowerCase().includes('.com') && !email.value.toLowerCase().includes('.org') && !email.value.toLowerCase().includes('.edu')) {
             containsErrors = true;
             email.classList.add('error');
         } else {
